@@ -6,13 +6,13 @@
 #define wifiLed    D0   //D0
 
 //khai bao thong tin wifi va cac ket noi voi mqtt
-const char* ssid = "Thanh"; //WiFI Name
-#define password "0932983766" //WiFi Password
+const char* ssid = ""; //WiFI Name
+#define password "" //WiFi Password
 
-const char* mqttServer = "projectiottest1.cloud.shiftr.io";
-const char* mqttUserName = "projectiottest1"; // MQTT username
-const char* mqttPwd = "12ASD"; // MQTT password
-const char* clientID = "Esp1"; // client id
+const char* mqttServer = "link to server";
+const char* mqttUserName = ""; // MQTT username
+const char* mqttPwd = ""; // MQTT password
+const char* clientID = ""; // client id
 
 //khai bao cac bien de chua cac publish/ subscribe
 
